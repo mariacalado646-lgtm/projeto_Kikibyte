@@ -1,0 +1,430 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f3f1;
+  color: #1a1a1a;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #fbf9f7;
+  border-bottom: 1px solid #e5ddd7;
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #9b4a12;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.logo-area h2 {
+  color: #9b4a12;
+  margin: 0;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #222;
+  font-weight: bold;
+}
+
+.login-btn {
+  background-color: #9b4a12;
+  color: white;
+  padding: 12px 22px;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 60px;
+  background: linear-gradient(to bottom, #faf8f6, #f4f1ee);
+}
+
+.hero-texto {
+  width: 50%;
+}
+
+.hero-texto h1 {
+  font-size: 64px;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.hero-texto h1 span,
+.sobre h2 span,
+.certificados h2 span {
+  color: #9b4a12;
+}
+
+.hero-texto p {
+  font-size: 22px;
+  color: #5c5c5c;
+  max-width: 600px;
+}
+
+.botoes {
+  margin-top: 30px;
+}
+
+.btn-principal,
+.btn-secundario {
+  display: inline-block;
+  padding: 15px 25px;
+  margin-right: 15px;
+  text-decoration: none;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.btn-principal {
+  background-color: #9b4a12;
+  color: white;
+}
+
+.btn-secundario {
+  border: 2px solid #9b4a12;
+  color: #9b4a12;
+}
+
+.hero-imagem {
+  position: relative;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circulo-fundo {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  background-color: rgba(155, 74, 18, 0.08);
+  border-radius: 50%;
+  filter: blur(15px);
+}
+
+.hero-imagem img {
+  width: 220px;
+  position: relative;
+  z-index: 2;
+}
+
+.descubra {
+  text-align: center;
+  padding: 25px 0 40px;
+  color: #666;
+}
+
+.descubra p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.descubra span {
+  font-size: 28px;
+}
+
+.sobre {
+  padding: 80px 40px;
+  text-align: center;
+  background-color: #fafafa;
+}
+
+.sobre h2 {
+  font-size: 52px;
+  margin-bottom: 20px;
+}
+
+.texto-sobre {
+  font-size: 24px;
+  color: #5f5f5f;
+  max-width: 900px;
+  margin: 0 auto 50px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #f8f4f1;
+  border: 1px solid #e4dcd5;
+  border-radius: 20px;
+  width: 320px;
+  padding: 30px;
+  text-align: left;
+}
+
+.icone {
+  width: 60px;
+  height: 60px;
+  background-color: #ede3dc;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  color: #9b4a12;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-size: 22px;
+  color: #5f5f5f;
+  line-height: 1.5;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 0 40px 70px;
+  background: #fafafa;
+  text-align: center;
+}
+
+.stat-item strong {
+  display: block;
+  font-size: 34px;
+  color: #9b4a12;
+  margin-bottom: 6px;
+}
+
+.stat-item span {
+  color: #5f5f5f;
+  font-weight: 600;
+}
+
+.servicos,
+.certificados,
+.noticias,
+.contacto {
+  padding: 80px 40px;
+  text-align: center;
+  background: #fff;
+}
+
+.servicos h2,
+.certificados h2,
+.noticias h2,
+.contacto h2 {
+  font-size: 38px;
+  margin-bottom: 12px;
+}
+
+.grid-servicos,
+.noticias-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1100px;
+  margin: 30px auto;
+}
+
+.serviço {
+  text-align: left;
+  min-height: 210px;
+}
+
+.serviço h3,
+.cert-card h3,
+.noticia-card h3 {
+  font-size: 22px;
+  margin: 0 0 12px;
+}
+
+.serviço p,
+.cert-card li,
+.noticia-card p,
+.contacto-info p {
+  font-size: 16px;
+  color: #5f5f5f;
+  line-height: 1.5;
+}
+
+.centro {
+  display: inline-block;
+  margin-top: 26px;
+}
+
+.cert-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  max-width: 1100px;
+  margin: 30px auto;
+}
+
+.cert-card {
+  background: #f8f4f1;
+  border: 1px solid #e4dcd5;
+  border-radius: 20px;
+  padding: 28px;
+  text-align: left;
+}
+
+.cert-card ul {
+  padding-left: 18px;
+}
+
+.guarantee {
+  max-width: 1100px;
+  margin: 20px auto 0;
+  background: linear-gradient(180deg, #b07a45, #9b4a12);
+  color: #fff;
+  padding: 26px;
+  border-radius: 16px;
+}
+
+.guarantee p {
+  max-width: 760px;
+  margin: 10px auto 18px;
+  color: #fff;
+}
+
+.branco {
+  border-color: #fff;
+  color: #fff;
+}
+
+.noticia-card {
+  background: #fff;
+  border: 1px solid #e4dcd5;
+  border-radius: 16px;
+  overflow: hidden;
+  text-align: left;
+}
+
+.noticia-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.noticia-card p,
+.noticia-card a {
+  padding: 0 16px 16px;
+  display: block;
+}
+
+.contacto-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  max-width: 1100px;
+  margin: 30px auto;
+  text-align: left;
+}
+
+.contacto-info,
+.formulario {
+  background: #f8f4f1;
+  border: 1px solid #e4dcd5;
+  border-radius: 18px;
+  padding: 24px;
+}
+
+.formulario input,
+.formulario textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-family: inherit;
+}
+
+.formulario textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.linha-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #9b4a12;
+  color: #fff;
+}
+
+@media (max-width: 900px) {
+  header,
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-texto,
+  .hero-imagem {
+    width: 100%;
+  }
+
+  nav {
+    margin: 10px 0;
+  }
+
+  .hero-texto h1 {
+    font-size: 42px;
+  }
+
+  .hero-texto p,
+  .texto-sobre,
+  .card p {
+    font-size: 18px;
+  }
+
+  .sobre h2 {
+    font-size: 38px;
+  }
+
+  .stats,
+  .grid-servicos,
+  .cert-grid,
+  .noticias-grid,
+  .contacto-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .servicos,
+  .certificados,
+  .noticias,
+  .contacto,
+  .stats {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
