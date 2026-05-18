@@ -1,0 +1,20 @@
+Isto tudo é para ser feito no terminal, cmd, etc.
+#1- Garantir que Python está instalado, o que já deve estar, nesta altura do campeonato
+
+
+#2- Criar e ativar o virtual environment (venv)
+
+Criar: (este só precisa de ser rodado uma vez): "python -m venv venv"
+! A venv é para ser criada na pasta django, se não, ela pode ir parar ao git por engano.
+
+Ativar: (este precisa de ser rodado antes de ligar o projeto Django):
+Mac/Linux:  "source venv/bin/activate"
+Win:        "venv\Scripts\activate"
+
+#3- Instalar depencencias:
+Rodar "pip install -r requirements.txt"
+
+#4- Ligar o projeto Django:
+Na pasta "kikibyte_django", na que tem o ficheiro "manage.py", rodar o comando "python manage.py runserver", depois verifica se está tudo a rodar, vai ao enderesso 0.0.0.0:8000, 127.0.0.1:8000 ou localhost:8000, qualquer um dos três deve funcionar
+
+Qualquer duvida, façam copy/paste disto no ChatGPT ou mandem msg no grupo.

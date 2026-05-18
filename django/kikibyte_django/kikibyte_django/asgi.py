@@ -1,5 +1,5 @@
 """
-ASGI config for cybersec_platform project.
+ASGI config for kikibyte_django project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'cybersec_platform.settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "kikibyte_django.settings")
 
 application = get_asgi_application()
