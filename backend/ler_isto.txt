@@ -5,7 +5,7 @@ Isto tudo é para ser feito no terminal, cmd, etc.
 #2- Criar e ativar o virtual environment (venv)
 
 Criar: (este só precisa de ser rodado uma vez): "python -m venv venv"
-! A venv é para ser criada na pasta django, se não, ela pode ir parar ao git por engano.
+! A venv é para ser criada na pasta "backend", se não, ela pode ir parar ao git por engano.
 
 Ativar: (este precisa de ser rodado antes de ligar o projeto Django):
 Mac/Linux:  "source venv/bin/activate"

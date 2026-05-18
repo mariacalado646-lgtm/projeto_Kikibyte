@@ -1,0 +1,63 @@
+# ====================================================================
+# 🐍 BACKEND / PYTHON (Django & Venv)
+# ====================================================================
+# Virtual Environments
+**/venv/
+**/.venv/
+**/env/
+**/ENV/
+
+# Python Cache & Compiled Files
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local Database (SQLite)
+*.sqlite3
+*.sqlite3-journal
+
+# Environment Variables & Secrets (Crucial)
+.env
+.env.local
+.env.*.local
+backend/.env
+
+
+# ====================================================================
+# ⚛️ FRONTEND / JAVASCRIPT (Vite & React)
+# ====================================================================
+# Dependencies
+**/node_modules/
+/.pnp
+.pnp.js
+
+# Production / Build Output
+**/dist/
+**/build/
+
+# Vite TS/JS cache and logs
+.main.vite
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# ====================================================================
+# 🛠️ IDES, EDITORS & SYSTEM FILES
+# ====================================================================
+# IDEs (VS Code, VSCodium, JetBrains Rider/PyCharm)
+.vscode/
+.vscode-oss/
+.idea/
+*.sln
+*.suo
+*.ntvs*
+*.njsproj
+*.swp
+
+# Operating System Files
+.DS_Store
+Thumbs.db
